@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FunctionGather</string>
+
+    <!--选择城市-->
+    <string name="choice_city_title">选择城市</string>
+    <string name="choice_city_close">关闭城市选择</string>
+    <string name="choice_address">选择地址</string>
+
+    <!--上拉加载，下拉刷新-->
+    <string name="list_view_title">上拉加载，下拉刷新</string>
+    <string name="list_view_no_data">暂无数据</string>
+    <string name="list_item_head">我是第</string>
+    <string name="list_item_end">条数据</string>
+
 </resources>

@@ -17,6 +17,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
+/**
+ * Created by hdw on 2019/5/27 19:11
+ * todo
+ */
 public class CityChoiceActivity extends AppCompatActivity {
 
     private AreaPickerView areaPickerView;
@@ -38,7 +42,7 @@ public class CityChoiceActivity extends AppCompatActivity {
         areaPickerView.setAreaPickerViewCallback(new AreaPickerView.AreaPickerViewCallback() {
             @Override
             public void callback(int... value) {
-                i=value;
+                i = value;
                 if (value.length == 3)
                     button.setText(addressBeans.get(value[0]).getLabel() + "-" + addressBeans.get(value[0]).getChildren().get(value[1]).getLabel() + "-" + addressBeans.get(value[0]).getChildren().get(value[1]).getChildren().get(value[2]).getLabel());
                 else
