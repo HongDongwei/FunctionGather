@@ -12,4 +12,6 @@
     <string name="list_item_head">我是第</string>
     <string name="list_item_end">条数据</string>
 
+    <!--网络切换-->
+    <string name="network_change_title">网络切换</string>
 </resources>
